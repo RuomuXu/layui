@@ -5,7 +5,7 @@
 html #layuicss-skincodecss{display: none; position: absolute; width: 1989px;}
 
 /* 字体  */
-.layui-code-wrap{font-size: 13px; font-family: "Courier New",Consolas,"Lucida Console";}
+.layui-code-wrap{font-size: 13px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
 
 /* 基础结构 */
 .layui-code-view{display: block; position: relative; padding: 0 !important; border: 1px solid #eee; border-left-width: 6px; background-color: #fff; color: #333;}
@@ -30,7 +30,7 @@ html #layuicss-skincodecss{display: none; position: absolute; width: 1989px;}
 
 .layui-code-fixbar{position: absolute; top: 8px; right: 11px; padding-right: 45px; z-index: 5;}
 .layui-code-fixbar > span{position: absolute; right: 0; top: 0; padding: 0 8px; color: #777; transition: all .3s;}
-.layui-code-fixbar > span:hover{color: #16b777;}
+.layui-code-fixbar > span:hover{color: #0f29a6;}
 .layui-code-copy{display: none; cursor: pointer;}
 .layui-code-preview > .layui-code-view > .layui-code-fixbar .layui-code-copy{display: none !important;}
 .layui-code-view:hover > .layui-code-fixbar .layui-code-copy{display: block;}
@@ -58,7 +58,7 @@ html #layuicss-skincodecss{display: none; position: absolute; width: 1989px;}
 .layui-code-tools{position: absolute; right: 11px; top: 8px; line-height: normal;}
 .layui-code-tools > i{display: inline-block; margin-left: 6px; padding: 3px; cursor: pointer;}
 .layui-code-tools > i.layui-icon-file-b{color: #999;}
-.layui-code-tools > i:hover{color: #16b777;}
+.layui-code-tools > i:hover{color: #0f29a6;}
 
 /* 全屏风格  */
 .layui-code-full{position: fixed; left: 0; top: 0; z-index: 1111111; width: 100%; height: 100%; background-color: #fff;}

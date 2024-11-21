@@ -153,12 +153,12 @@ html #layuicss-layer{display: none; position: absolute; width: 1989px;}
 .layui-layer-dialog .layui-layer-content{position: relative; padding: 16px; line-height: 24px; word-break: break-all; overflow:hidden; font-size:14px; overflow-x: hidden; overflow-y:auto;}
 .layui-layer-dialog .layui-layer-content .layui-layer-face{position: absolute; top: 18px; left: 16px; color: #959595; font-size: 32px; _left: -40px;}
 .layui-layer-dialog .layui-layer-content .layui-icon-tips{color: #F39B12;}
-.layui-layer-dialog .layui-layer-content .layui-icon-success{color: #16b777;}
+.layui-layer-dialog .layui-layer-content .layui-icon-success{color: #0f29a6;}
 .layui-layer-dialog .layui-layer-content .layui-icon-error{top: 19px; color: #FF5722;}
 .layui-layer-dialog .layui-layer-content .layui-icon-question{color: #FFB800;}
 .layui-layer-dialog .layui-layer-content .layui-icon-lock{color: #787878;}
 .layui-layer-dialog .layui-layer-content .layui-icon-face-cry{color: #FF5722;}
-.layui-layer-dialog .layui-layer-content .layui-icon-face-smile{color: #16b777;}
+.layui-layer-dialog .layui-layer-content .layui-icon-face-smile{color: #0f29a6;}
 
 .layui-layer-rim{border:6px solid #8D8D8D; border:6px solid rgba(0,0,0,.3); border-radius:5px; box-shadow: none;}
 .layui-layer-msg{min-width:180px; border:1px solid #D3D4D3; box-shadow: none;}

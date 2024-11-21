@@ -251,7 +251,7 @@ layui.use(function(){
   slider.render({
     elem: '#ID-slider-demo-theme-2',
     value: 50,
-    theme: '#16b777' // 主题色
+    theme: '#0f29a6' // 主题色
   });
   slider.render({
     elem: '#ID-slider-demo-theme-3',

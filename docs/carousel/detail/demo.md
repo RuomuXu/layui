@@ -70,7 +70,7 @@ layui.use(function(){
     <label class="layui-form-label">动画类型</label>
     <div class="layui-input-block">
       <div class="layui-btn-group" style="margin-top: 5px;">
-        <button class="layui-btn layui-btn-sm" style="background-color: #16b777;" lay-on="carousel-set" data-key="anim" data-value="default">左右切换</button>
+        <button class="layui-btn layui-btn-sm" style="background-color: #0f29a6;" lay-on="carousel-set" data-key="anim" data-value="default">左右切换</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="anim" data-value="updown">上下切换</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="anim" data-value="fade">渐隐渐显</button>
       </div> 
@@ -80,7 +80,7 @@ layui.use(function(){
     <label class="layui-form-label">箭头状态</label>
     <div class="layui-input-block">
       <div class="layui-btn-group" style="margin-top: 5px;">
-        <button class="layui-btn layui-btn-sm" style="background-color: #16b777;" lay-on="carousel-set" data-key="arrow" data-value="hover">悬停显示</button>
+        <button class="layui-btn layui-btn-sm" style="background-color: #0f29a6;" lay-on="carousel-set" data-key="arrow" data-value="hover">悬停显示</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="arrow" data-value="always">始终显示</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="arrow" data-value="none">不显示</button>
       </div> 
@@ -90,7 +90,7 @@ layui.use(function(){
     <label class="layui-form-label">指示器位置</label>
     <div class="layui-input-block">
       <div class="layui-btn-group" style="margin-top: 5px;">
-        <button class="layui-btn layui-btn-sm" style="background-color: #16b777;" data-key="indicator" lay-on="carousel-set" data-value="inside">容器内部</button>
+        <button class="layui-btn layui-btn-sm" style="background-color: #0f29a6;" data-key="indicator" lay-on="carousel-set" data-value="inside">容器内部</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="indicator" data-value="outside">容器外部</button>
         <button class="layui-btn layui-btn-sm" lay-on="carousel-set" data-key="indicator" data-value="none">不显示</button>
       </div> 
@@ -176,7 +176,7 @@ layui.use(function(){
       var key = othis.data('key');
       var options = {};
       
-      othis.css('background-color', '#16b777').siblings().removeAttr('style'); 
+      othis.css('background-color', '#0f29a6').siblings().removeAttr('style'); 
       options[key] = othis.data('value');
       carInst.reload(options); // 重载轮播
     }

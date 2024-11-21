@@ -80,12 +80,12 @@
   <div>
     <input type="radio" name="color" value="red" lay-skin="none">
     <div lay-radio class="lay-skin-color-picker" style="color: red; background-color: red"></div>
-    <input type="radio" name="color" value="#16b777" lay-skin="none">
-    <div lay-radio class="lay-skin-color-picker" style="color: #16b777; background-color: #16b777"></div>
+    <input type="radio" name="color" value="#0f29a6" lay-skin="none">
+    <div lay-radio class="lay-skin-color-picker" style="color: #0f29a6; background-color: #0f29a6"></div>
     <input type="radio" name="color" value="blueviolet" lay-skin="none">
     <div lay-radio class="lay-skin-color-picker" style="color: blueviolet; background-color: blueviolet"></div>
-    <input type="radio" name="color" value="#16baaa" lay-skin="none">
-    <div lay-radio class="lay-skin-color-picker" style="color: #16baaa; background-color: #16baaa"></div>
+    <input type="radio" name="color" value="#0f29a6" lay-skin="none">
+    <div lay-radio class="lay-skin-color-picker" style="color: #0f29a6; background-color: #0f29a6"></div>
   </div>
 
   <hr>

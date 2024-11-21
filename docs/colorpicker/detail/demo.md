@@ -109,7 +109,7 @@ layui.use(function(){
   // 渲染
   colorpicker.render({ // eg1
     elem: '#ID-colorpicker-demo-alpha-1',
-    color: '#16baaa', // hex
+    color: '#0f29a6', // hex
     alpha: true, // 开启透明度
     format: 'rgb'
   });
@@ -177,7 +177,7 @@ layui.use(function(){
   // 渲染
   colorpicker.render({
     elem: '#ID-colorpicker-demo-all',
-    color: '#16baaa',
+    color: '#0f29a6',
     predefine: true,
     alpha: true,
     done: function(color){

@@ -12,13 +12,13 @@ toc: true
 <div class="layui-row layui-col-space15 ws-docs-color">
   <div class="layui-col-sm4">
     <div class="layui-bg-green">
-      <p>#16baaa</p>
+      <p>#0f29a6</p>
       <p>蓝绿色</p>
     </div>
   </div>
   <div class="layui-col-sm4">
-    <div style="background-color: #16b777;">
-      <p>#16b777</p>
+    <div style="background-color: #0f29a6;">
+      <p>#0f29a6</p>
       <p>清新绿</p>
     </div>
   </div>
@@ -50,8 +50,8 @@ Layui 选取以象征清新与包容的「蓝绿色」作为主色调，它介�
   </div>
   
   <div class="layui-col-sm3">
-    <div style="background-color: #16b777;">
-      <p>#16b777</p>
+    <div style="background-color: #0f29a6;">
+      <p>#0f29a6</p>
       <p>成功 - Success</p>
     </div>
   </div>
@@ -114,7 +114,7 @@ Layui 选取以象征清新与包容的「蓝绿色」作为主色调，它介�
     #ffb800 - 橙
   </div>
   <div class="layui-bg-green">
-    #16baaa - 绿
+    #0f29a6 - 绿
   </div>
   <div class="layui-bg-blue">
     #1e9fff - 蓝

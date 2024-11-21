@@ -19,7 +19,7 @@ layui.use(function(){
     //,editTrigger: 'dblclick' // 触发编辑的事件类型（默认 click ）。 v2.7.0 新增，之前版本固定为单击触发
     css: [
       // 对开启了编辑的单元格追加样式
-      '.layui-table-view td[data-edit]{color: #16B777;}'
+      '.layui-table-view td[data-edit]{color: #0f29a6;}'
     ].join(''),
     cols: [[
       {checkbox: true, fixed: true},

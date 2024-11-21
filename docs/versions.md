@@ -12,7 +12,7 @@ toc: true
 
 <h2 id="v2.9.18" class="ws-anchor">
   v2.9.18
-  <span class="layui-badge-rim" style="color: #16b777;">稳定版</span>
+  <span class="layui-badge-rim" style="color: #0f29a6;">稳定版</span>
   <span class="layui-badge-rim">2024-10-14</span>
 </h2>
 
@@ -961,7 +961,7 @@ toc: true
 
 - #### 基础
   - 优化 css 的构建，将原先 layer/laydate/code 的 css 统一构建到 `layui.css`，以尽量减少请求
-  - 变更*主色调*为：`#16baaa` <i style="display:inline-block; vertical-align: middle; width: 16px; height: 16px; padding: 3px; margin-right: 16px; border-radius: 2px; background-color: #16baaa;"></i>*在原有的墨绿基础上赋予了清新*
+  - 变更*主色调*为：`#0f29a6` <i style="display:inline-block; vertical-align: middle; width: 16px; height: 16px; padding: 3px; margin-right: 16px; border-radius: 2px; background-color: #0f29a6;"></i>*在原有的墨绿基础上赋予了清新*
   - 新增 `18` 个字体图标
   - 新增 grid 布局的超大屏 `xl` 响应式支持
   - 调整 `layui.event()` 方法，当组件事件中未设定 `filter` 时则可重复执行该事件 # 1135

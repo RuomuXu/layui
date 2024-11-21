@@ -23,7 +23,7 @@
 </script>
 <!-- colorpicker -->
 <script type="text/html" id="TPL-colorpicker-demo">
-  {{# var color = d.color || ['#16baaa','#16b777','#1E9FFF','#FF5722','#FFB800','#393D49'][Math.round(Math.random()*5)]; }}
+  {{# var color = d.color || ['#0f29a6','#0f29a6','#1E9FFF','#FF5722','#FFB800','#393D49'][Math.round(Math.random()*5)]; }}
   <div class="colorpicker-demo" lay-options="{color: '{{= color }}'}"></div>
 </script>!}}
 

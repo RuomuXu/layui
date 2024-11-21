@@ -2050,7 +2050,7 @@
     // 预览颜色渐变
     var oldValue = elemPreview.html();
     oldValue && (elemPreview.css({
-      'color': '#16b777'
+      'color': '#0f29a6'
     }),
     setTimeout(function(){
       elemPreview.css({

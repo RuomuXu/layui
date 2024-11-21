@@ -17,7 +17,7 @@
 </div>
 
 <style>
-.class-demo-layer-lockscreen{background: url(https://unpkg.com/outeres@0.0.12/img/wallpaper/001.jpg) #16b777; background-size: cover; color: rgba(255,255,255,1);}
+.class-demo-layer-lockscreen{background: url(https://unpkg.com/outeres@0.0.12/img/wallpaper/001.jpg) #0f29a6; background-size: cover; color: rgba(255,255,255,1);}
 .class-demo-layer-lockscreen .layui-form{position: absolute; top: 50%; left: 50%; width: 300px; transform: translate(-50%, -50%);}
 .class-demo-layer-lockscreen .layui-form > div{margin-bottom: 8px;}
 .class-demo-layer-pin{width: 100%; height: 38px; padding: 0 8px; background-color: rgba(255,255,255,.8); border: none; border-radius: 3px; box-sizing: border-box;}

@@ -163,7 +163,7 @@
           contentEl.on('contextmenu', function (e) {
             e.preventDefault();
             layer.tips(lunarDate.toString(), this, {
-              tips: [1, '#16baaa'],
+              tips: [1, '#0f29a6'],
               zIndex: 999999999,
             });
           });

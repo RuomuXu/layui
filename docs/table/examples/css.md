@@ -10,7 +10,7 @@
   <style>
     /* 自定义样式  */
     .layui-table-testcss .layui-table-header,
-    .layui-table-testcss thead tr{background-color: #F8FCF9; color: #16BAAA}
+    .layui-table-testcss thead tr{background-color: #F8FCF9; color: #0f29a6}
     .layui-form-testcss > div{margin-bottom: 6px;}
   </style>
 </head>

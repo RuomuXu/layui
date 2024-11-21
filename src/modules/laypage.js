@@ -153,7 +153,7 @@ layui.define(function(exports){
       
       // 数据总数
       count: function(){
-        var countText = typeof config.countText === 'object' ? config.countText : ['共 ', ' 条'];
+        var countText = typeof config.countText === 'object' ? config.countText : ['Total ', ' logs'];
         return '<span class="layui-laypage-count">'+ countText[0] + config.count + countText[1] +'</span>'
       }(),
       
@@ -161,7 +161,7 @@ layui.define(function(exports){
       limit: function(){
         var elemArr = ['<span class="layui-laypage-limits"><select lay-ignore>'];
         var template = function(item) {
-          var def = item +' 条/页';
+          var def = item +' Logs/Page';
           return typeof config.limitTemplet === 'function'
             ? (config.limitTemplet(item) || def)
           : def;
@@ -189,9 +189,9 @@ layui.define(function(exports){
       // 跳页区域
       skip: function(){
         var skipText = typeof config.skipText === 'object' ? config.skipText : [
-          '到第',
-          '页',
-          '确定'
+          'To',
+          'Page',
+          'OK'
         ];
         return [
           '<span class="layui-laypage-skip">'+ skipText[0],

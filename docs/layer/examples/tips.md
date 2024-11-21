@@ -35,7 +35,7 @@ layui.use(function(){
     },
     'test-tips-color': function(){
       layer.tips('可自定义任意主题色', this, {
-        tips: [1, '#16b777']
+        tips: [1, '#0f29a6']
       });
     },
     'test-tips-more': function(){

@@ -12,8 +12,8 @@ toc: true
 <style>
 /* 为了区分效果 */
 div[carousel-item]>*{text-align: center; line-height: 280px; color: #fff;}
-div[carousel-item]>*:nth-child(2n){background-color: #16b777;}
-div[carousel-item]>*:nth-child(2n+1){background-color: #16baaa;}
+div[carousel-item]>*:nth-child(2n){background-color: #0f29a6;}
+div[carousel-item]>*:nth-child(2n+1){background-color: #0f29a6;}
 </style>
 
 <div>

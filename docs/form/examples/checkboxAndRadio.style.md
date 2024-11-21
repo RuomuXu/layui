@@ -26,14 +26,14 @@
   /* 悬停 */
   .layui-form-checkbox:hover>.lay-skin-checkcard,
   .layui-form-radio:hover>.lay-skin-checkcard {
-    border-color: #16b777;
+    border-color: #0f29a6;
   }
 
   /* 选中 */
   .layui-form-checked>.lay-skin-checkcard,
   .layui-form-radioed[lay-skin="none"]>.lay-skin-checkcard {
     color: #000;
-    border-color: #16b777;
+    border-color: #0f29a6;
     background-color: rgb(22 183 119 / 10%) !important;
     /* box-shadow: 0 0 0 3px rgba(22, 183, 119, 0.08); */
   }
@@ -90,9 +90,9 @@
     border-top-right-radius: 6px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 6px;
-    border-top-color: #16b777;
+    border-top-color: #0f29a6;
     border-top-style: solid;
-    border-right-color: #16b777;
+    border-right-color: #0f29a6;
     border-right-style: solid;
     overflow: hidden;
   }
@@ -133,9 +133,9 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 0px;
-    border-right-color: #16b777;
+    border-right-color: #0f29a6;
     border-right-style: solid;
-    border-bottom-color: #16b777;
+    border-bottom-color: #0f29a6;
     border-bottom-style: solid;
     overflow: hidden;
   }
@@ -170,7 +170,7 @@
   .layui-form-checked>.lay-skin-tag,
   .layui-form-radioed>.lay-skin-tag {
     color: #fff !important;
-    background-color: #16b777 !important;
+    background-color: #0f29a6 !important;
   }
 </style>
 <!-- 单选框 Color Picker -->
