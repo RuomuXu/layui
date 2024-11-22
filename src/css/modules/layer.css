@@ -275,3 +275,68 @@ html #layuicss-layer{display: none; position: absolute; width: 1989px;}
   0% {-webkit-transform: scale(1); -ms-transform: scale(1);transform: scale(1);}
 }
 .layer-anim-close{-webkit-animation-name: layer-bounceOut; animation-name: layer-bounceOut; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-duration:.2s; animation-duration:.2s;}
+
+
+.layui-tags {
+  position: relative;
+}
+.layui-tags:after {
+  content: 'ENTER';
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: #eaeaea;
+  color: #000;
+  pointer-events: none;
+}
+.layui-tags-suggestions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.layui-tags-suggestions li {
+  padding: 10px 16px;
+  line-height: 32px;
+  cursor: pointer;
+  position: relative;
+}
+.layui-tags-suggestions li:first-child::after {
+  content: 'TAB';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  padding: 0 10px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: #eaeaea;
+  color: #000;
+}
+.layui-tags-suggestions li.highlight {
+  background-color: #f2f2f2;
+}
+
+.layui-tags-selected span {
+  padding: 2px 4px;
+  border-radius: 3px;
+  background-color: #eaeaea;
+  color: #333;
+  font-size: 12px;
+  margin: 4px 4px 0 0;
+  float: left;
+}
+.layui-tags-selected span i {
+  cursor: pointer;
+}
