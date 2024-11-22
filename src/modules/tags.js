@@ -33,7 +33,7 @@ layui.define(['jquery'], function (exports) {
         // 输入框 HTML
         container.addClass('layui-tags-container').html(`
             <div class="layui-tags">
-                <input type="text" class="layui-tags-input layui-input" placeholder="Search Tag or New Tag" />
+                <input type="text" name="${self.config.elem.substring(1)}" class="layui-tags-input layui-input" placeholder="Search Tag or New Tag" />
                 <div class="layui-tags-selected"></div>
                 <ul class="layui-tags-suggestions"></ul>
             </div>
@@ -62,6 +62,7 @@ layui.define(['jquery'], function (exports) {
     Tags.prototype.addTag = function (tag, isInit) {
         var self = this;
         if (self.selectedTags.length >= self.config.maxTags) {
+            layer.msg('This tag limit is reached, the max ' + self.config.maxTags + ' tags can be selected.', {icon: 0});
             return;
         }
 
@@ -129,6 +130,7 @@ layui.define(['jquery'], function (exports) {
                 }
                 $(this).val('');
                 self.suggestionList.empty().hide();
+                e.preventDefault();
             } else if (e.which === 38) { // 上键
                 e.preventDefault(); // 阻止默认行为
                 if (self.selectedSuggestionIndex > 0) {
